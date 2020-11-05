@@ -1,0 +1,19 @@
+.machine {
+  display: flex;
+}
+
+.reelOne img {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.reelTwo img {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.reelThree img {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
