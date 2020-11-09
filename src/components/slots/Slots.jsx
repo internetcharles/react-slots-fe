@@ -9,9 +9,8 @@ const Slots = (props) => {
 
   return (
     <>
-      <h1>{user.name}</h1>
-      <h3>Money: {user.money}</h3>
-      <Machine />
+      <h1 data-testid="slots">{user.name}</h1>
+      <Machine {...props} />
     </>
   );
 };
